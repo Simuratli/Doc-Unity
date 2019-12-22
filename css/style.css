@@ -1,0 +1,114 @@
+html,body{
+    margin: 0px;
+    height: 100%;
+    padding: 0px;
+    width: 100%;
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+    background-color: #0f0e17;
+
+}
+.about{
+  width: 100%;
+  height: 160%;
+  background-color: #0f0e17;
+}
+.news{
+ width: 100%;
+ height: 100%;
+ background-color: #0f0e17; 
+}
+@media only screen and (max-width: 766px) {
+    .news{
+ width: 100%;
+ height: auto;
+ background-color: #0f0e17; }
+
+}
+.navbar {
+    z-index: 12 !important
+}
+nav {
+    background-color: transparent;
+}
+.navbar-brand{
+    font-family: 'Oswald', sans-serif;
+}
+h1,h2,h3,h4,h5,h5{
+    color: #fffffe;
+    font-family: 'Oswald', sans-serif;
+}
+p,span{
+ color: #a7a9be;
+ font-family: 'Merriweather', serif;
+}
+.mybutton{
+    color: #fffffe;
+    background-color: #ff8906
+}
+.reverse{
+    color: #0f0e17
+}
+.chose{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    border: 2px solid #ff8906;
+    cursor: pointer;
+    background-color: #0f0e17
+}
+.dropdown-menu {
+    background-color: #f25f4c
+}
+.mybutton:hover {
+    background-color: #f25f4c
+    }.textshadow {
+        font-family: 'Merriweather', serif;
+    }
+    .card {
+        background-color: #fffffe !important
+    }
+    .dark {
+        background-color: #0f0e17 !important;
+        border-radius: 5px;
+    }
+    .list-group a:hover {
+        background-color: #f25f4c !important;
+        color: white
+    }
+    ::selection{
+        background-color:   #ff8906 !important;
+        color: #fffffe
+    }
+    .card-header {
+        background-color: #ff8906 !important;
+        color: white;
+        text-decoration: none;
+        cursor: pointer;
+        
+
+    }
+    .btn-link {
+        text-decoration: none;
+        color: white;
+         word-wrap: break-word;
+    white-space: normal;
+
+    }
+    .card-header:hover{
+        background-color: #f25f4c !important;
+    }
+     .card-header:hover .btn-link{
+        color: white !important;
+        text-decoration: none;
+    }
+    .mycardbody {
+        background-color: #0f0e17;
+        color: #fffffe
+    }.col2 {
+        word-wrap: break-word;
+    white-space: normal;
+    }
